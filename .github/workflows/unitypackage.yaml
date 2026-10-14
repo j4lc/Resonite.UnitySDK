@@ -22,7 +22,7 @@ jobs:
           lfs: 'true'
 
       - name: 'Install Unity'
-        uses: Yellow-Dog-Man/composite-actions-templates/.github/actions/unity-download@d7e2542ed0c4e52ff2946f6de9c6545ff511c09b # Main
+        uses: Yellow-Dog-Man/composite-actions-templates/.github/actions/unity-download@e459a9981778b3c6cd974bf69c2cf8209a5d7ea9 # Main
         with:
           version: '6000.3.10f1'
           UNITY_SERVICE_ACCOUNT_ID: ${{ secrets.UNITY_SERVICE_ACCOUNT_ID }}
